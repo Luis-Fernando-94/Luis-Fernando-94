@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <div id="calc" class="col text-light py-3">
+            <h1 id="title" class="d-flex justify-content-center">calculadora</h1>
+
+            <div class="value">
+                <div id="value-calc" class="d-flex justify-content-center">
+                    <p id="first-value" class="calculo"></p>
+                    <p id="sinal" class="calculo"></p>
+                    <p id="second-value" class="calculo"></p>
+                    <p id="igual" hidden>=</p>
+                </div>
+
+                <input id="value-cal-1" class="px-4 pt-4 calculator" type="number">
+            </div>
+            <div class="content">
+                <button class="btn btn-color">1</button>
+                <button class="btn btn-color">2</button>
+                <button class="btn btn-color">3</button>
+                <button class="btn btn-color-sinal">+</button>
+                <button class="btn btn-color">4</button>
+                <button class="btn btn-color">5</button>
+                <button class="btn btn-color">6</button>
+                <button class="btn btn-color-sinal">-</button>
+                <button class="btn btn-color">7</button>
+                <button class="btn btn-color">8</button>
+                <button class="btn btn-color">9</button>
+                <button class="btn btn-color-sinal">*</button>
+                <button class="btn btn-color-sinal">/</button>
+                <button class="btn btn-color">0</button>
+                <button class="btn btn-danger">C</button>
+                <button class="btn btn-success">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>
