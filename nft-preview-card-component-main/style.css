@@ -1,0 +1,120 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+}
+.container {
+    max-width: 320px;
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    border-radius: 16px;
+}
+.content {
+    width: 270px;
+    margin: auto;
+    padding: 25px 0;
+}
+
+.modal {
+    position: absolute;
+    background-color: rgba(0, 255, 247, 0.5);
+    width: 270px;
+    height: 270px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+#first-image {
+    width: 270px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+.title {
+    display: inline;
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+}
+.title:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+.p-first {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.view-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-views {
+    content: "";
+    display: inline-block;
+    background-image: url("./nft-preview-card-component-main/images/icon-ethereum.svg");
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 18px;
+    margin-right: 5px;
+}
+.views {
+    display: flex;
+    color: hsl(178, 100%, 50%);
+    font-size: 16px;
+}
+.icon-times {
+    content: "";
+    display: inline-block;
+    background-image: url("./nft-preview-card-component-main/images/icon-clock.svg");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.times {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 400;
+}
+.perfil {
+    display: flex;
+    align-items: center;
+}
+#avatar {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.p-second {
+    color: hsl(215, 51%, 70%);
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.name {
+    color: hsl(0, 0%, 100%);
+}
+.name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .container {
+        margin-top: 40px;
+    }
+}
