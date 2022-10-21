@@ -1,7 +1,7 @@
 ### Olá! Eu sou o Luis Fernando... 👋
 
-- 🔭 Estou trabalhando em Desenvolvimento de web site.
-- 🌱 Estou aprendendo Node.Js
+- 🔭 Estou trabalhando em Desenvolvimento web.
+- 🌱 Estou aprendendo React
 - 😄 Pronomes: Ele/Dele
 
 <div align="center">
